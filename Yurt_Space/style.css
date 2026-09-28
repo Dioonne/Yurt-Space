@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; 
+  font-style: normal;
+}
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #111; /* Dark background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Keeps it on top of everything */
+    transition: opacity 0.5s ease-out;
+}
+
+.loader-content {
+    color: white;
+    font-family: Montserrat, sans-serif;
+    font-size: 3rem;
+}
+
+body {
+    background-color: black;
+    background-image: radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+                      radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px);
+    background-size: 550px 550px, 350px 350px;
+    background-position: 0 0, 20px 60px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: transparent;
+    transition: transform 0.3s ease, background-color 0.3s ease; 
+}
+
+.nav-hidden {
+    transform: translateY(-100%);
+}
+
+.nav-scrolled {
+    background-color: #000 !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #fffb00; /* Hover effect */
+}
+
+.nav-logo {
+    height: 50px; /* Adjust based on your logo size */
+}
+
+/* Pushes the header content down so it isn't hidden behind the fixed nav */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* Makes the hero section take up the full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Stretches the video to cover the screen without stretching out of shape */
+    z-index: -1; /* Pushes the video behind your text */
+}
+
+.hero-text {
+    position: relative;   /* Required for z-index to work */
+    z-index: 2;          /* Lifts text above the dark overlay (z-index: 1) */
+    text-align: center;  /* Centers all text inside this container */
+    max-width: 800px;    /* Keeps paragraph lines at a comfortable reading width */
+    padding: 20px;
+    margin: 0 auto;  
+    color: white; 
+}
+
+.hero-text h1 {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.hero-text p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Full-screen dark overlay */
+    z-index: 1;                     /* Sits directly above the video */
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: transparent;
+}
+
+
+.wspec {
+    transition: 0.3s; /* Makes the animation smooth */
+}
+
+
+.wspec-link, .nss-link, .nss-mentoring-link, .unicef-link {
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+.wspec-image, .nss-image, .nss-mentoring-image, .unicef-image {
+    width: 100%;
+    max-width: 400px; /* Adjust to your preferred size */
+    border-radius: 16px;
+    display: block;
+}
+
+.wspec-text, .nss-text, .nss-mentoring-text, .unicef-text {
+    color: white;
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+/* 4. Update the hover glow effect */
+.wspec, .nss, .nss-mentoring, .unicef {
+    transition: all 0.3s ease;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.wspec:hover, .nss:hover, .nss-mentoring:hover, .unicef:hover {
+    box-shadow: 0 0 20px rgba(243, 162, 76, 0.8); /* Glow effect */
+    transform: scale(1.05); /* Slightly enlarges the element */
+}

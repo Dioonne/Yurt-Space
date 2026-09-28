@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yurt Space</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+
+</head>
+<body>
+  <div id="preloader">
+    <div class="loader-content">
+        <span id="counter">0</span>%
+    </div>
+</div>
+    <header style="color:white">
+
+    <div class="hero">
+    <video autoplay muted playsinline class="bg-video">
+        <source src="space.mp4" type="video/mp4">
+    </video>
+
+     <div class="nav">
+            <img src="yurt_white.png" alt="Yurt Space Logo" class="nav-logo">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        </div>
+        <script>
+        let lastScrollY = window.scrollY;
+        const nav = document.querySelector('.nav');
+
+        window.addEventListener('scroll', () => {
+         const currentScrollY = window.scrollY;
+
+         if (currentScrollY === 0) {
+         nav.classList.remove('nav-hidden', 'nav-scrolled');
+        } else if (currentScrollY > lastScrollY) {
+         nav.classList.add('nav-hidden');
+        } else {
+         nav.classList.remove('nav-hidden');
+         nav.classList.add('nav-scrolled');
+        }
+
+        lastScrollY = currentScrollY;
+        });
+        </script> 
+
+    <div class="hero-text">
+        <h1>Yurt Space</h1>
+        <p>
+          Yurt Space is a science hub gathering students from every corner of Kazakhstan
+          to make science accessible to everyone. It was first founded at NIS Almaty-Medeu.
+          The hub gained popularity among students thanks to the NSS Space Settlement Competition.
+        </p>
+    </div>
+</div>
+
+
+
+    <img src="img_team.jpg" style="color:white; font-family:verdana;"
+     alt="Yurt Space team">
+
+    <h3 style="color:white; font-family:Montserrat, sans-serif; text-align:center;">Previous Events</h3>
+        <a href="wspec.html" class="wspec-link">
+        <div class="wspec">
+        <img src="wspec.jpeg" alt="WSPEC" class="wspec-image">
+        <p class="wspec-text">World Space Elevators Competition</p>
+        </div>
+        </a>
+
+        <a href="nss.html" class="nss-link">
+        <div class="nss">
+        <img src="nss.jpeg" alt="NSS" class="nss-image">
+        <p class="nss-text">NSS Space Settlement Competition</p>
+        </div>
+        </a>
+
+        <a href="nss-mentoring.html" class="nss-mentoring-link">
+        <div class="nss-mentoring">
+        <img src="nss-mentoring.jpeg" alt="NSS" class="nss-mentoring-image">
+        <p class="nss-mentoring-text">NSS Mentoring Program</p>
+        </div>
+        </a>
+
+        <a href="unicef.html" class="unicef-link">
+        <div class="unicef">
+        <img src="unicef.jpeg" alt="UNICEF" class="unicef-image">
+        <p class="unicef-text">UNICEF</p>
+        </div>
+        </a>
+    
+
+
+    <script>
+    let counter = document.getElementById("counter");
+    let count = 0;
+    let preloader = document.getElementById("preloader");
+
+    let interval = setInterval(() => {
+        count += 2;
+        counter.innerText = count;
+        
+        if (count === 100) {
+            clearInterval(interval);
+            preloader.style.opacity = "0";
+            setTimeout(() => {
+                preloader.style.display = "none";}, 500); // Matches the CSS transition time
+        }
+    }, 20); // (20ms per number = 2 seconds total)
+    </script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>   
+</body>
+</html>
+
+

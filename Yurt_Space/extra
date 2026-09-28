@@ -1,0 +1,45 @@
+<img src="img_team.jpg", style="color:white; font-family:verdana;" alt="NSS" usemap="#NSS">
+     <map name="NSS">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+     <a href="wspec.html">
+    <img src="wspec.jpeg" class="event-image" alt="WSPEC">
+</a>
+
+     <img src="img_team.jpg" style="color:white; font-family:verdana;"alt="meeting" usemap="#meeting">   
+<map name="meeting">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+     <img src="img_team.jpg" style="color:white; font-family:verdana;"alt="Mentoring" usemap="#mentoring">
+<map name="mentoring">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+     <img src="img_team.jpg" style="color:white; font-family:verdana;"alt="UNICEF" usemap="#unicef"> 
+<map name="unicef">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+
+
+aeroo? 
+
+<h2 style="color:white; font-family:Montserrat, sans-serif;text-align:center;">
+      About Yurt Space</h2>
+    <p style="color:white; font-family:Montserrat, sans-serif;text-align:center;">
+      Yurt Space is a science hub gathering students from every corner 
+      of Kazakhstan to make science accessible to everyone. 
+      It was first founded at NIS Almaty-Medeu. 
+      The hub gained popularity among students thanks to the NSS 
+      Space Settlement Competition.
+    </p>
+ 

@@ -1,0 +1,4 @@
+The gsap.to() method is similar to the gsap.from() method, 
+but the difference is that the gsap.to() method animates elements from 
+their current state to a new state, while the gsap.from() method animates 
+elements from a new state to their current state.
