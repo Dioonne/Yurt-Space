@@ -20,3 +20,7 @@ Interview - a face-to-face or remote conversation used to gather detailed inform
 Observation - watching users or processes directly to understand how a current system works
 Alternative solution - a different possible approach to solving the same problem
 
+When the text says to explain something we need to add the definiton and after that explain the advantages and disadvantages
+
+The analyst  has identified possible solutions off-the-shelf software bespoke adapted open-source software. compare those referring at least three criteria, recommend one solution justifying your choice
+cost development time possibilites ans support
