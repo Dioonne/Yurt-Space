@@ -2,3 +2,21 @@ The gsap.to() method is similar to the gsap.from() method,
 but the difference is that the gsap.to() method animates elements from 
 their current state to a new state, while the gsap.from() method animates 
 elements from a new state to their current state.
+
+titile page with the school and the logo on it
+table of contents
+the interview questions
+whats the purpose of an interview
+min 10 questions
+while adding the pictures we should add the tittle of an image
+flow chart
+
+
+Data collection - the processs of gathering information to understand a problem or system
+Qualitative data - description, non-numerical information
+Quantitative data - numerical and measurable information that can be counted or statistically analysed
+Questionnaire - a written set questions used to collect data from multiple people
+Interview - a face-to-face or remote conversation used to gather detailed information
+Observation - watching users or processes directly to understand how a current system works
+Alternative solution - a different possible approach to solving the same problem
+
