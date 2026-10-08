@@ -24,3 +24,33 @@ When the text says to explain something we need to add the definiton and after t
 
 The analyst  has identified possible solutions off-the-shelf software bespoke adapted open-source software. compare those referring at least three criteria, recommend one solution justifying your choice
 cost development time possibilites ans support
+
+Nazarbayev Intellectual School of Science and Mathematics in Medeu District of Almaty
+
+Advanced project 
+Computer Science 
+“ ” web application 
+
+Student: Addina A.S 11 “B” 
+Teacher: Agaralova A.G
+
+Table of contents 
+Table of contents
+1. Definition, investigation and analysis
+1.1. Description of stakeholders
+1.1.1. Description of client
+1.1.2. Description of users 
+1.2. Current system
+1.2.1. Interview with customer about the current system 
+1.2.2. User survey about current system
+1.2.3. Flowchart/Data flow diagram
+1.2.4. Alternative solutions
+1.3. Investigation and analysis 
+1.3.1. Interview with the customer about the new system 
+1.3.2. Requirements for the future system 
+
+1.1.1. Description of client 
+
+
+
+
